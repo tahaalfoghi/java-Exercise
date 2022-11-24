@@ -46,7 +46,7 @@ abstract class x1{
         this.str3 = str3;
     }
 }
-class x2 extends x1 {
+final class x2 extends x1 {
     public void  length(String str1,String str2,String str3){}
     public void max(){
         int a=str1.length();
